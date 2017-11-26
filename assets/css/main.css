@@ -1,0 +1,118 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.header{
+  background: #63605a;
+  color: white;
+}
+
+.header p{
+  word-spacing: 1em;
+  padding-top: 0.5em;
+  margin-left: 15em;
+}
+
+.onePage{
+  background-image: url(../img/header.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 35em;
+}
+
+.aboutRock{
+  margin-top: 3em;
+}
+
+.salute{
+  margin-top: 3em;
+}
+
+.beRock{
+  margin-top: 3em;
+}
+
+.text{
+  color: white;
+  text-align: center;
+  padding-top: 10em;
+}
+
+.text h2{
+  font-size: 100px;
+}
+
+.text p{
+  font-size: 50px;
+}
+
+.container img{
+  width: 50%;
+}
+
+.footer{
+  text-align: right;
+  background: #63605a;
+  color: white;
+}
+
+
+@media (min-width: 200px) and (max-width: 534px){
+  [class*="col-"]{
+    width: 100%;
+  }
+
+.header{
+  height: 3em;
+}
+
+.header p{
+  display: none;
+}
+
+.header h1{
+  font-size: 1em;
+  margin-top: -0.5em;
+}
+
+.onePage{
+  height: 10em;
+}
+
+.text{
+  padding-top: 2em;
+}
+
+.text h2{
+  font-size: 40px;
+}
+
+.text p{
+  font-size: 20px;
+}
+
+p{
+  font-size: 15px;
+  width: 70%;
+  margin-left: 3.5em;
+}
+
+h3{
+  font-size: 50px;
+  margin-left: 1em;
+}
+
+.img{
+  box-sizing: border-box;
+  margin-left: 5em;
+  margin-top: 3em;
+}
+
+.footer{
+  text-align: center;
+}
+
+
+
+}
